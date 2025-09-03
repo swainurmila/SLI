@@ -1,0 +1,407 @@
+.cm-statue {
+    height: 117px;
+}
+.leader-box {
+ 
+    max-width: 100px;
+    max-height: 100px;
+    height: 100%;
+    width: 100%;
+    
+}
+.leader-img {
+    object-fit: cover;
+    object-position: top;
+    max-height: 100px;
+    height: 100vh;
+    width: 100%;
+}
+.f-desc {
+    font-size: 16px;
+    line-height: 20px;
+}
+.new-description {
+    background-image: url("../images/home/news-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.news-box {
+    padding: 25px 40px 20px 40px;
+}
+.contatiner-news-box {
+    box-shadow: inset 0 0 10px #7e550a;
+    padding: 20px;
+}
+.news-box ul > li {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+    border-bottom: 1px dashed #363333;
+}
+.news-box ul > li {
+    display: flex;
+}
+.news-box ul li .date {
+    border: 1px solid #575454;
+    display: flex;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+.news-box ul li .date span.day {
+    text-align: center;
+    width: 40%;
+    font-size: 15px;
+    height: auto;
+    color: #0c0fb6;
+    padding: 5px 20px 5px 5px;
+}
+.news-box ul li .date span.month {
+    text-align: center;
+    width: 60%;
+    background-color: #1275e7;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+}
+.news-text {
+    font-size: 16px;
+    margin-left: 15px;
+}
+.service-txt {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.service-desc-txt {
+    font-size: 15px;
+    padding-bottom: 5px;
+    line-height: 18px;
+}
+.service-style-one .single-service .text p.service-desc-txt {
+    padding-bottom: 5px !important;
+}
+
+.service-desc-txt .read-more {
+    font-size: 12px !important;
+}
+.theme-footer-one .bottom-footer {
+    background: #e0e0e0 !important;
+    padding: 15px 0;
+}
+.theme-footer-one .bottom-footer p {
+    color: #001648 !important;
+    line-height: 25px;
+    font-size: 17px;
+}
+#theme-main-banner {
+    margin: 0 !important;
+    height: 550px !important;
+}
+.bottom-banner {
+    padding: 0px 0px;
+    background: url(../images/home/black_bg.jpg) no-repeat bottom;
+      background-size: auto;
+    background-size: cover;
+  }
+  .left_head {
+    background: #feb40d;
+    padding: 8px 0px;
+    text-align: center;
+    color: #2a2727;
+    text-transform: capitalize;
+    margin: 0px 0px;
+  }
+  .right_marq a {
+    color: white;
+    padding: 6px 0px 0px 0px;
+  }
+  .right_marq {
+    line-height: inherit;
+  }
+  .theme-sidebar-one .sidebar-box {
+    margin-top: 55px;
+}
+.publication-content-box {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.12);
+    min-height: 300px;
+    border: 1px solid #eaeaea;
+    border-radius: 0 0 5px 5px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0267cc;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-color: #ddd #ddd #fff;
+    margin-bottom: 2px;
+}
+.shop-page .shop-filter {
+    margin-bottom: 30px;
+}
+#mega-menu-holder>ul> li> a {
+    color: #b1b7c7;
+}
+.theme-inner-banner.photos-banner {
+    background: url(../images/shop/img14.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #707d9e;
+}
+.theme-inner-banner.publication-banner {
+    background: url(../images/home/publication-banner.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #707d9e;
+}
+.theme-inner-banner.infra-banner {
+    background: url(../images/home/sli-slider1.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #707d9e; 
+
+}
+.theme-inner-banner.news-banner {
+    background: url(../images/home/news-banner.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #707d9e; 
+
+}
+.theme-inner-banner.magazine-banner {
+    background: url(../images/home/magazine-banner.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #707d9e; 
+
+}
+.theme-inner-banner.research-banner {
+    background: url(../images/home/research-banner.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #707d9e; 
+
+}
+.theme-inner-banner.tender-banner {
+    background: url(../images/home/tender-banner.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #707d9e; 
+
+}
+.theme-inner-banner.training-banner {
+    background: url(../images/home/training-banner.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #707d9e; 
+
+}
+.theme-inner-banner.vision-banner {
+    background: url(../images/home/vision-banner.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #707d9e; 
+
+}
+
+.theme-menu-wrapper .right-widget ul li {
+    line-height: 60px;
+}
+#mega-menu-holder li .sub-toggle {
+    line-height: 60px;
+}
+#mega-menu-holder>ul> li> a {
+    padding: 20px 35px 20px 25px;
+} 
+#mega-menu-holder>ul> li> a:before {
+    content: '/';
+    line-height: 60px;
+}  
+/*Top Header*/
+
+section.header-topbar-sec {
+    padding: 0;
+    background: linear-gradient(109.6deg, rgb(176 175 89) 11.2%, rgb(86 148 171) 91.1%);
+    
+}
+.topbar-right-link {
+    display: flex;
+    justify-content: end;
+}
+.topbar-right-link a {
+    color: #020d1a;
+    font-size: 14px;
+}
+.topbar-right-link a:hover {
+    color: #fff;
+}
+.social-link, .topbar-email, .topbar-phone {
+    border-right: solid 1px rgb(7 33 64 / 13%);
+    margin-right: 0.9rem;
+    padding-right: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+}
+.topbar-phone i, .topbar-email i {
+    color: #0f0f0f;
+    padding-right: 0.5rem;
+    font-size: 12px;
+}
+.topbar-phone span {
+    color: #020d1a;
+    padding: 0 5px;
+}
+.gigw-comp {
+    display: flex;
+    align-items: center;
+}
+span.sizechanger {
+    margin-left: 0.9rem;
+}
+span.sizechanger a {
+    padding: 0 3px;
+}
+span.colorchanger {
+    display: inline-flex;
+    margin-left: 0.5rem;
+}
+span.colorchanger a:first-child {
+    background: white;
+    padding: 4px 7px;
+    display: inline-block;
+    color: #020d1a!important;
+}
+span.colorchanger a.blackbg {
+    background: #020d1a;
+    padding: 4px 7px;
+    display: inline-block;
+    color: #fff;
+}
+#switch-lang{
+    display: inline-block;
+  background: #e5faad;
+  padding: 5px 8px;
+  color: #080808;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.img-overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.img-overlay i {
+  color: #fff;
+  font-size: 3em;
+}
+
+#overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  /* Removes blue highlight */
+  -webkit-user-select: none;
+  -moz-user-select: none;    
+  -ms-user-select: none; 
+  user-select: none; 
+}
+
+#overlay img {
+  margin: 0;
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+  padding: 5%;
+}
+
+@media screen and (min-width:768px) {
+  #overlay img {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  #overlay img {
+    width: 50%;
+  }
+}
+
+#overlay video {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 5%;
+  }
+  
+  @media screen and (min-width:768px) {
+    #overlay .content {
+      width: 60%;
+    }
+  }
+  
+  @media screen and (min-width:1200px) {
+    #overlay .content {
+      width: 50%;
+    }
+  }
+  
+
+#nextButton,
+#prevButton,
+#exitButton {
+  color: #fff;
+  font-size: 2em;
+  transition: opacity 0.8s;
+}
+
+#nextButton:hover,
+#prevButton:hover,
+#exitButton:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width:768px) {
+  #nextButton,
+  #prevButton,
+  #exitButton {
+    font-size: 3em;
+  }
+}
+
+#exitButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+#gallery .content {
+    width: 800px;
+    min-width: 800px;
+    max-width: 800px;
+    height: 600px;
+    min-height: 600px;
+    max-height: 600px;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+.topbar-right-link {
+    justify-content: center;
+}
+}
+

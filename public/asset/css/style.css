@@ -1,0 +1,35 @@
+#sidebar-menu .has-arrow::after {
+    content: "\eb3a";
+    font-family: unicons-line;
+  }
+  .form-control, .form-select, .table-bordered, .form-check-input {
+    border: var(--bs-border-width) solid #a6dbb5;
+}
+.dash-board-card1 {
+    background-color: #34c38f;
+}
+.dash-board-card2 {
+    background-color: #f1b44c;
+}
+.dash-board-card3 {
+    background-color: #50a5f1;
+}
+.dash-board-card4 {
+    background-color: #f46a6a;
+}
+#sidebar-menu ul li ul.sub-menu li a {
+    padding: .4rem 1.5rem .4rem 1.5rem;
+}
+.product-box {
+    border: 1px solid #34c38f;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    overflow: hidden;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(31, 34, 38, 0.69);
+}
+.product-img .product-ribbon {
+    left: 5px;
+  }

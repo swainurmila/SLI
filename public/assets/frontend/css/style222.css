@@ -1,0 +1,25 @@
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #0970CF;
+}
+
+.owl-item > div img {
+  align-self: center !important;
+  transform: scale(0.9);
+}
+@media (max-width: 575.98px) {
+  .owl-item > div img {
+    transform: none;
+  }
+}
+
+.owl-item.active.center > div img {
+  align-self: center !important;
+  transform: scale(1);
+  border-radius: 10px;
+}
+@media (max-width: 575.98px) {
+  .owl-item.active.center > div img {
+    transform: none;
+  }
+}

@@ -1,0 +1,210 @@
+#sidebar-menu .has-arrow:after {
+  content: "\eb3a";
+  font-family: unicons-line;
+}
+.authentication-bg {
+  position: relative;
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
+.authentication-bg::after {
+  /* background-image: url(../images/auth-bg.png); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.15;
+}
+.authentication-bg .container {
+  position: relative;
+  z-index: 1;
+}
+.account-pages {
+    height: 100vh;
+    display: flex;
+}
+  .form-control, .form-select, .table-bordered, .form-check-input {
+    border: var(--bs-border-width) solid #cbcedc;
+}
+.text-custom-primary {
+    color: #179229;
+}
+.custom-btn {
+  background-color: #179229;
+  color: #ffffff;
+}
+.custom-btn:hover {
+  background-color: #096116;
+  color: #ffffff;
+}
+form a.login-btn {
+    cursor: pointer;
+    width: 100%;
+    padding: 0.6rem 0;
+    border-radius: 0.5rem;
+    border: none;
+    background: linear-gradient(90deg, rgba(109,194,52,1) 0%, rgba(23,146,41,1) 100%);
+    color: #ffffff;
+    font-size: 1.2rem;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+  }
+  form button.login-btn {
+    cursor: pointer;
+    width: 100%;
+    /* padding: 0.3rem 0; */
+    border-radius: 0.5rem;
+    border: none;
+    background: linear-gradient(90deg, rgba(109,194,52,1) 0%, rgba(23,146,41,1) 100%);
+    color: #ffffff;
+    font-size: 1.2rem;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .captcha-img img{
+    width: 139px;
+    height: 37px;
+  }
+  .navbar-brand-box {
+    padding: 1.3rem 0rem 0rem 0.5rem;
+  }
+  body[data-sidebar="colored"] .vertical-menu {
+    /* background: linear-gradient(180deg, #008552 0%, #9ebd13 100%); */
+    background-color: #63a91f;
+    background-image: linear-gradient(314deg, #63a91f 0%, #1a512e 54%);
+  }
+  body[data-sidebar="colored"] .navbar-brand-box {
+    background: none;
+  }
+  .logo-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+  }
+  .logo-sm-text {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+  }
+  .logo-section {
+    display: flex;
+  }
+  .logo {
+    line-height: 30px;
+  }
+
+  .active > .page-link, .page-link.active {
+    z-index: 3;
+    color: #ffffff;
+    background-color: #179229;
+    border-color: #179229;
+  }
+  .breadcrumb-item.active {
+    color: #179229;
+  }
+  .mm-active .active i {
+    color: #ffffff !important;
+  }
+  .custom-dt-btn .dt-buttons {
+    display: inline-block;
+    margin-left: 10px ;
+    margin-bottom: 20px;
+  }
+  .custom-dt-btn .dt-buttons button:first-child {
+    display: none;
+  }
+  .custom-dt-btn .dt-buttons button:nth-child(2) {
+    border : 1px solid #096116;
+    border-radius: 5px !important ;
+    background: #096116;
+    color: #ffffff;
+  }
+  .custom-dt-btn .dt-buttons button:nth-child(3) {
+    border : 1px solid #eb1818;
+    border-radius: 5px !important ;
+    background: #eb1818;
+    color: #ffffff;
+    margin-left: 10px !important;
+  }
+  .custom-dt-btn .dt-buttons button:nth-child(2):hover {
+    border : 1px solid #096116 !important;
+    background: transparent;
+    color: #096116;
+  }
+  .custom-dt-btn .dt-buttons button:nth-child(3):hover {
+    border : 1px solid #eb1818 !important;
+    background: transparent;
+    color: #eb1818;
+  }
+  .nav-tabs-custom .nav-item .nav-link.active {
+    color: #179229 !important;
+  }
+  .nav-tabs-custom .nav-item .nav-link::after {
+    background: #179229 !important;
+  }
+
+  /* Satyabrata Swain From Date 13-06-2024 Line No 152 On-Words */
+
+
+
+body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li:hover>ul a {
+  color: black !important;
+}
+
+  .navbar-brand-box .ecourse{
+    background-color: #5b73ea !important;
+  }
+
+  div#liveToast h4.success-text{
+    position: fixed !important;
+    top: 15px !important;
+  }
+
+  div#liveToast{
+    height: 50px;
+    position: fixed !important;
+    /* top: 12px !important; */
+  }
+
+
+  @media (min-width: 769px) {
+    body[data-sidebar-size=sm] {
+        min-height: auto !important;
+    }
+}
+
+body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li{
+  white-space: normal !important;
+}
+
+body[data-sidebar=colored][data-sidebar-size=sm] .vertical-menu #sidebar-menu ul li.mm-active .active{
+  color: white !important;
+}
+
+body[data-sidebar=colored] #sidebar-menu ul li ul.sub-menu li a:focus{
+  color: white !important;
+}
+
+body[data-sidebar=colored][data-sidebar-size=sm] .vertical-menu #sidebar-menu ul li.mm-active .active {
+  color: black !important;
+}
+
+body[data-sidebar=colored][data-sidebar-size=sm] #sidebar-menu ul li ul.sub-menu li a:focus{
+  color: black !important;
+}
+
+body[data-sidebar-size=sm] .vertical-menu .simplebar-content-wrapper{
+  position: fixed;
+  top:60px;
+}
+

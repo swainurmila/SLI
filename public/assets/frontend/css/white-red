@@ -1,0 +1,98 @@
+/* Desktop Main Menu Color */
+
+.wsmainfull {
+  background-color: #fff;
+}
+
+.wsmenu>.wsmenu-list {
+  background-color: #fff;
+}
+
+/* Mobile Header */
+
+.wsmobileheader {
+  background-color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a {
+  color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a .wsarrow:after {
+  border-top-color: #b3b3b3;
+}
+
+.wsmenu>.wsmenu-list>li>a:hover .wsarrow:after {
+  border-top-color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a.active .wsarrow:after {
+  border-top-color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li:hover>a .wsarrow:after {
+  border-top-color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a>i {
+  color: #55606c;
+}
+
+.wsmenu>.wsmenu-list>li>a.active i {
+  color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li:hover>a>i {
+  color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a:hover i {
+  color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>.wsmegamenu .menu_form input[type="submit"] {
+  background-color: #40c3a4;
+  color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>.wsmegamenu .menu_form input[type="button"] {
+  background-color: #40c3a4;
+  color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a.active {
+  background-color: #40c3a4;
+  color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li:hover>a {
+    background-color: transparent;
+    color: #000;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li:hover>a {
+    background-color: #850406;
+    color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li:hover>a {
+    background-color: transparent;
+    color: #40c3a4;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li:hover a {
+  background-color: #40c3a4;
+  color: #fff;
+}
+/* ======new css add */
+.wsmainfull {
+  /* width: 100%; */
+  min-height: 46px;
+  border-top: 1px solid #a50d0f;
+  background-color: #a50d0f;
+  border-bottom: 1px solid #a50d0f;
+  /* border-top: 1px solid #a50d0f; */
+}
+.wsmobileheader {
+  background-color: #fff;
+}

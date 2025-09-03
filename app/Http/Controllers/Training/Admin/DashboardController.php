@@ -1,0 +1,80 @@
+<?php
+
+namespace App\Http\Controllers\Training\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Session;
+use Auth;
+use DB;
+use Spatie\Permission\Models\Role;
+use App\Models\User;
+
+class DashboardController extends Controller
+{
+    public function index(){
+
+        // $user = Auth::user();
+        // $role = Role::findByName('Training Admin');
+        // $user->assignRole('Training Admin');
+        return view('training.admin.dashboard');
+    }
+
+    public function adminLogout(){
+        Session::flush('success','Successfully Logged out !');
+        Auth::logout();
+        return redirect()->route('admin.training.login');
+    }
+
+    public function getCity(Request $request)
+    {
+        $city = DB::table('cities')->where('state_id', $request->state_id)->orderBy('name', 'asc')->get();
+        return response()->json(['city' => $city]);
+    }
+
+    public function reloadCaptcha(){
+        return response()->json(['captcha'=> captcha_img()]);
+    }
+
+    public function roleError(){
+        return view('layouts.role-error');
+    }
+
+    public function profile(){
+
+
+        $data = User::find(Auth::user()->id);
+
+        $states = DB::table('states')->get();
+        $cities =DB::table('cities')->where('state_id',Auth::user()->state_id)->get();
+
+        return view('training.admin.users.profile',compact('data','states','cities'));
+    }
+
+    public function updateProfile(Request $request)
+    {
+        if ($file = $request->file('profile_photo')) {
+            $data = $request->file('profile_photo');
+            $extension = $data->getClientOriginalExtension();
+            $filename = time() . 'profile_photo' . $request->id . '.' . $extension;
+            $path = public_path('upload/user_profile_photo/');
+            $upload_success = $data->move($path, $filename);
+            $profile_photo = '/upload/user_profile_photo/' . $filename;
+        }else {
+            $profile_photo = $request->profile_photo_old;
+        }
+       
+        $update_user = User::where('id', Auth::user()->id)->update([
+            'first_name' => $request->first_name,
+            'last_name' => $request->last_name,
+            'user_name' =>$request->user_name,
+            'present_address' => $request->present_address,
+            'permanent_address' => $request->permanent_address,
+            'profile_photo' => $profile_photo,
+            'state_id' => $request->state_id,
+            'district_id' => $request->district_id,
+            'contact_no'=>$request->contact_no
+        ]);
+        return redirect()->back()->with('success', 'Profile Updated Successfully!');
+    }
+}
